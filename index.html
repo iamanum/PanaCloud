@@ -5,70 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panacloud</title>
     <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
-      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
+    <!-- Link to Boxicons CSS -->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   </head>
   <body>
     <div class="img-div">
-      <img src="./public/01.png" alt="" />
-      <img src="./public/02.png" alt="" />
+      <img src="./public/01.png" alt="Image 1" />
+      <img src="./public/02.png" alt="Image 2" />
     </div>
 
     <header class="header">
-        <div class="header-topDiv">
-          <div class="socialIcon-Div">
-            <div class="circleIcon">
-              <box-icon name="facebook" type="logo" color="#ffffff"></box-icon>
-            </div>
-            <div class="circleIcon">
-              <box-icon name="twitter" type="logo" color="#ffffff"></box-icon>
-            </div>
-            <div class="circleIcon">
-              <box-icon name="gmail" type="logo" color="#ffffff"></box-icon>
-            </div>
-            <div class="circleIcon">
-              <box-icon name="linkedin" type="logo" color="#ffffff"></box-icon>
-            </div>
-            <div class="circleIcon">
-              <box-icon name="youtube" type="logo" color="#ffffff"></box-icon>
-            </div>
+      <div class="header-topDiv">
+        <!-- Social Icons on the Left -->
+        <div class="socialIcon-Div">
+          <div class="circleIcon">
+            <i class='bx bxl-facebook' style="color: #ffffff;"></i>
           </div>
+          <div class="circleIcon">
+            <i class='bx bxl-twitter' style="color: #ffffff;"></i>
+          </div>
+          <div class="circleIcon">
+            <i class='bx bxl-google-plus' style="color: #ffffff;"></i>
+          </div>
+          <div class="circleIcon">
+            <i class='bx bxl-linkedin' style="color: #ffffff;"></i>
+          </div>
+          <div class="circleIcon">
+            <i class='bx bxl-youtube' style="color: #ffffff;"></i>
+          </div>
+        </div>
 
+        <!-- Phone Numbers and Call Me Back Button on the Right -->
         <div class="phoneIcon-Div">
           <div class="phoneNo">
-            <box-icon
-              name="phone"
-              type="solid"
-              rotate="270"
-              color="#8ec63f"
-            ></box-icon>
+            <i class='bx bx-phone' style="color: #8ec63f;"></i>
             <p>+92(304)386-6717</p>
           </div>
           <div class="phoneNo">
-            <box-icon
-              name="phone"
-              type="solid"
-              rotate="270"
-              color="#8ec63f"
-            ></box-icon>
+            <i class='bx bx-phone' style="color: #8ec63f;"></i>
             <p>+92(317)011-3001</p>
           </div>
-          <div>
-            <button>CALL ME BACK</button>
-          </div>
+          <button class="call-button">CALL ME BACK</button>
         </div>
       </div>
+    </header>
+  </body>
 
-      <nav class="header-bottomDiv">
+
+
+<nav class="header-bottomDiv">
         <div class="logoDiv">
           <img src="./public/PC-logo.png" alt="logo" />
         </div>
@@ -127,7 +113,7 @@
       <div class="iconDiv">
         <div class="iconDiv-1">
           <div class="round-Div">
-            <img src="/public/bulb.png" alt="" />
+            <img src="./public/bulb.png" alt="" />
           </div>
           <div class="cardText">
             <h3>INNOVATION</h3>
@@ -140,7 +126,7 @@
 
         <div class="iconDiv-1">
           <div class="round-Div">
-            <img src="/public/like.png" alt="" />
+            <img src="./public/like.png" alt="" />
           </div>
           <div class="cardText">
             <h3>QUALITY</h3>
@@ -153,7 +139,7 @@
 
         <div class="iconDiv-1">
           <div class="round-Div">
-            <img src="/public/clock.png" alt="" />
+            <img src="./public/clock.png" alt="" />
           </div>
           <div class="cardText">
             <h3>EXPERIENCE</h3>
@@ -166,7 +152,7 @@
 
         <div class="iconDiv-1">
           <div class="round-Div">
-            <img src="/public/peoples.png" alt="" />
+            <img src="./public/peoples.png" alt="" />
           </div>
           <div class="cardText">
             <h3>HAPPY CLIENTS</h3>
@@ -179,7 +165,7 @@
 
         <div class="iconDiv-1">
           <div class="round-Div">
-            <img src="/public/msg.png" alt="" />
+            <img src="./public/msg.png" alt="" />
           </div>
           <div class="cardText">
             <h3>SUPPORT</h3>
@@ -191,7 +177,7 @@
         </div>
       </div>
       <div class="aboutUs-div">
-        <img src="/public/aboutUsImg.jpeg" alt="about" />
+        <img src="./public/aboutUsImg.jpeg" alt="about" />
         <div class="aboutUs-text">
           <h1>ABOUT <span>US</span></h1>
           <p>
@@ -228,7 +214,7 @@
         <div class="serviceCards">
           <div class="card">
             <div class="yellowCircle">
-              <img src="/public/star.png" alt="star" />
+              <img src="./public/star.png" alt="star" />
             </div>
 
             <div class="starCardText">
@@ -243,7 +229,7 @@
 
           <div class="card">
             <div class="yellowCircle">
-              <img src="/pictures/star.png" alt="star" />
+              <img src="./public/star.png" alt="star" />
             </div>
 
             <div class="starCardText">
@@ -258,7 +244,7 @@
 
           <div class="card">
             <div class="yellowCircle">
-              <img src="/public/star.png" alt="star" />
+              <img src="./public/star.png" alt="star" />
             </div>
 
             <div class="starCardText">
@@ -273,7 +259,7 @@
 
           <div class="card">
             <div class="yellowCircle">
-              <img src="/public/star.png" alt="star" />
+              <img src="./public/star.png" alt="star" />
             </div>
 
             <div class="starCardText">
@@ -310,54 +296,54 @@
 
         <div class="portfolio-images">
           <img
-            src="/public/horse.png"
+            src="./public/horse.png"
             alt="horse"
             style="background-color: white"
           />
           <img
-            src="/public/social tree.png"
+            src="./public/social tree.png"
             alt="tree"
             style="background-color: #5e5e5e"
           />
           <img
-            src="/public/creative brain.png"
+            src="./public/creative brain.png"
             alt="brain"
             style="background-color: #d2d3d5"
           />
           <img
-            src="/public/Team success.png"
+            src="./public/Team success.png"
             alt="team"
             style="background-color: #838383"
           />
           <img
-            src="/public/rhino.png"
+            src="./public/rhino.png"
             alt="rhino"
             style="background-color: white"
           />
         </div>
         <div class="portfolio-images">
           <img
-            src="/public/hands.png"
+            src="./public/hands.png"
             alt="hands"
             style="background-color: #a3a3a3;"
           />
           <img
-            src="/public/brain.png"
+            src="./public/brain.png"
             alt="brain"
             style="background-color: #d2d3d5;"
           />
           <img
-            src="/public/lion.png"
+            src="./public/lion.png"
             alt="lion"
             style="background-color: white;"
           />
           <img
-            src="/public/growth.png"
+            src="./public/growth.png"
             alt="growth"
             style="background-color: #a3a3a3;"
           />
           <img
-            src="/public/tag line.png"
+            src="./public/tag line.png"
             alt="tag"
             style="background-color: #5e5e5e; "
           />
@@ -377,7 +363,7 @@
           <div class="process-div1">
             <div class="process-circle">1</div>
             <div class="process-roundDiv">
-              <img src="/public/phone.png" alt="phone" />
+              <img src="./public/phone.png" alt="phone" />
             </div>
             <div class="process-heading">
               <h3>REQUEST CALL</h3>
@@ -387,7 +373,7 @@
           <div class="process-div1">
             <div class="process-circle">2</div>
             <div class="process-roundDiv">
-              <img src="/public/message.png" alt="msg" />
+              <img src="./public/message.png" alt="msg" />
             </div>
             <div class="process-heading">
               <h3>CONSULTATION</h3>
@@ -397,7 +383,7 @@
           <div class="process-div1">
             <div class="process-circle">3</div>
             <div class="process-roundDiv">
-              <img src="/public/planing.png" alt="round" />
+              <img src="./public/planing.png" alt="round" />
             </div>
             <div class="process-heading">
               <h3>PLANNING</h3>
@@ -407,7 +393,7 @@
           <div class="process-div1">
             <div class="process-circle">4</div>
             <div class="process-roundDiv">
-              <img src="/public/gear.png" alt="round"  style="width: 100px; height: 100px"/>
+              <img src="./public/gear.png" alt="round"  style="width: 100px; height: 100px"/>
             </div>
             <div class="process-heading">
               <h3>WORK PROCESS</h3>
@@ -417,7 +403,7 @@
           <div class="process-div1">
             <div class="process-circle">5</div>
             <div class="process-roundDiv">
-              <img src="/public/pencil.png" alt="round"/>
+              <img src="./public/pencil.png" alt="round"/>
             </div>
             <div class="process-heading">
               <h3>CORRECTING</h3>
@@ -427,7 +413,7 @@
           <div class="process-div1">
             <div class="process-circle">6</div>
             <div class="process-roundDiv">
-              <img src="/public/delivered.png" alt="round" />
+              <img src="./public/delivered.png" alt="round" />
             </div>
             <div class="process-heading">
               <h3>DELIVER</h3>
@@ -453,7 +439,7 @@
 
           <div class="review-one" style="border-right: 4px solid #969292; border-bottom: 4px solid #969292;">
             <div  class="review-circle">
-              <img src="/public/dummy.jfif" alt="face" />
+              <img src="./public/dummy.jfif" alt="face" />
             </div>
             <div class="review-text">
               <h3>JOHN DOE</h3>
@@ -464,7 +450,7 @@
 
           <div class="review-one " style="border-bottom: 4px solid #969292;">
             <div  class="review-circle">
-              <img src="/public/dummy.jfif" alt="face" />
+              <img src="./public/dummy.jfif" alt="face" />
             </div>
             <div class="review-text">
               <h3>JOHN DOE</h3>
@@ -475,7 +461,7 @@
 
           <div class="review-one" style="border-right: 4px solid #969292;">
             <div  class="review-circle">
-              <img src="/public/dummy.jfif" alt="face" />
+              <img src="./public/dummy.jfif" alt="face" />
             </div>
             <div class="review-text">
               <h3>JOHN DOE</h3>
@@ -486,7 +472,7 @@
 
           <div class="review-one">
             <div  class="review-circle">
-              <img src="/public/dummy.jfif" alt="face" />
+              <img src="./public/dummy.jfif" alt="face" />
             </div>
             <div class="review-text">
               <h3>JOHN DOE</h3>
@@ -593,7 +579,7 @@
         </div>
         <div class="mapDiv">
           <div class="mapTop">
-            <img src="/public/maps.png" alt="">
+            <img src="./public/maps.png" alt="">
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit consequatur veniam corrupti.</p>
 
           </div>
@@ -633,7 +619,7 @@
       </div>
       <div class="footer">
         <div class="one">
-          <img src="public/PC-logo.png" alt="">
+          <img src="./public/PC-logo.png" alt="">
           <p>Lorem ipsum dolor y consectetur adipisicing elit. Quia, delectus nostrum. Quaerat magni libero similique cum debitis!</p>
           <h3>&copy; Panacloud  <span> 2019</span></h3>
         </div>
