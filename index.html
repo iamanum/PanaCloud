@@ -1,77 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Panacloud</title>
-    <link rel="stylesheet" href="style.css" />
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.0/dist/boxicons.js"
-      integrity="sha512-Dm5UxqUSgNd93XG7eseoOrScyM1BVs65GrwmavP0D0DujOA8mjiBfyj71wmI2VQZKnnZQsSWWsxDKNiQIqk8sQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <!-- Link Swiper's CSS -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
-  </head>
-  <body>
-    <div class="img-div">
-      <img src="./public/01.png" alt="Image 1" />
-      <img src="./public/02.png" alt="Image 2" />
-    </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panacloud</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Corrected Boxicons CDN -->
+  <link
+    href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+    rel="stylesheet"
+  />
+  <!-- Link Swiper's CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+</head>
+<body>
+  <div class="img-div">
+    <img src="./public/01.png" alt="Image 1" />
+    <img src="./public/02.png" alt="Image 2" />
+  </div>
 
-    <header class="header">
-      <div class="header-topDiv">
-<!-- Social Icons on the Left -->
-        <div class="socialIcon-Div">
-          <div class="circleIcon">
-            <box-icon name="facebook" type="logo" color="#ffffff"></box-icon>
-          </div>
-          <div class="circleIcon">
-            <box-icon name="twitter" type="logo" color="#ffffff"></box-icon>
-          </div>
-          <div class="circleIcon">
-            <box-icon name="gmail" type="logo" color="#ffffff"></box-icon>
-          </div>
-          <div class="circleIcon">
-            <box-icon name="linkedin" type="logo" color="#ffffff"></box-icon>
-          </div>
-          <div class="circleIcon">
-            <box-icon name="youtube" type="logo" color="#ffffff"></box-icon>
-          </div>
+  <header class="header">
+    <div class="header-topDiv">
+      <!-- Social Icons on the Left -->
+      <div class="socialIcon-Div">
+        <div class="circleIcon">
+          <i class="bx bxl-facebook" style="color: #ffffff"></i>
         </div>
-
-<!-- Phone Numbers and Call Me Back Button on the Right -->
-        <div class="phoneIcon-Div">
-          <div class="phoneNo">
-            <box-icon
-              name="phone"
-              type="solid"
-              rotate="270"
-              color="#8ec63f"
-            ></box-icon>
-            <p>+92(304)386-6717</p>
-          </div>
-          <div class="phoneNo">
-            <box-icon
-              name="phone"
-              type="solid"
-              rotate="270"
-              color="#8ec63f"
-            ></box-icon>
-            <p>+92(317)011-3001</p>
-          </div>
-          <div>
-            <button>CALL ME BACK</button>
-          </div>
+        <div class="circleIcon">
+          <i class="bx bxl-twitter" style="color: #ffffff"></i>
+        </div>
+        <div class="circleIcon">
+          <i class="bx bxl-gmail" style="color: #ffffff"></i>
+        </div>
+        <div class="circleIcon">
+          <i class="bx bxl-linkedin" style="color: #ffffff"></i>
+        </div>
+        <div class="circleIcon">
+          <i class="bx bxl-youtube" style="color: #ffffff"></i>
         </div>
       </div>
 
-
-
+      <!-- Phone Numbers and Call Me Back Button on the Right -->
+      <div class="phoneIcon-Div">
+        <div class="phoneNo">
+          <i class="bx bxs-phone" style="color: #8ec63f; transform: rotate(270deg);"></i>
+          <p>+92(304)386-6717</p>
+        </div>
+        <div class="phoneNo">
+          <i class="bx bxs-phone" style="color: #8ec63f; transform: rotate(270deg);"></i>
+          <p>+92(317)011-3001</p>
+        </div>
+        <div>
+          <button>CALL ME BACK</button>
+        </div>
+      </div>
+    </div>
+  
 <nav class="header-bottomDiv">
         <div class="logoDiv">
           <img src="./public/PC-logo.png" alt="logo" />
